@@ -13,7 +13,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 4
   },
+<<<<<<< HEAD
   "[typescriptreact]": {
+=======
+    "[typescriptreact]": {
+>>>>>>> 59dd775f09f0b8cc850be0048fd6a237953cb6b1
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
