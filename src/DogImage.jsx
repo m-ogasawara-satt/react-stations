@@ -1,12 +1,13 @@
-// @ts-check
+// Header.jsx
 
-export const DogImage = () => {
+import React from 'react';
+
+const Header = () => {
   return (
-    <img
-      src="https://images.dog.ceo/breeds/spaniel-brittany/n02101388_6057.jpg"
-      alt="Dog"
-    ></img>
-  )
+    <header>
+      <h1>Dog Image Viewer</h1>
+    </header>
+  );
 }
 
-export default DogImage
+export default Header;
