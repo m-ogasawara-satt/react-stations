@@ -1,15 +1,13 @@
-// Description.jsx
+// @ts-check+
 
 import React from 'react';
 
-const Description = ({ dogUrl, updateUrl }) => {
+export const Description = props => {
   return (
-    <div>
-      <p>犬の画像を紹介するサイトです。</p>
-      <img src={dogUrl} alt="Dog" />
-      <button onClick={updateUrl}>更新する</button>
+    <div className="dest">
+      <p>{props.description}</p>
     </div>
-  );
+  )
 }
 
-export default Description;
+export default Description

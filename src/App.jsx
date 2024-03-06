@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './Header';
 import Description from './Description';
+import DogImage from './DogImage';
 
 export const App = () => {
   const [dogUrl, setDogUrl] = useState(
@@ -21,7 +22,8 @@ export const App = () => {
   return (
     <div>
       <Header />
-      <Description dogUrl={dogUrl} updateUrl={updateUrl} />
+      <Description description="犬の画像を紹介するサイトです。"/>
+      <DogImage imageUrl={dogUrl} updateUrl={updateUrl} />
     </div>
   );
 }

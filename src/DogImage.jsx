@@ -1,13 +1,13 @@
-// Header.jsx
-
 import React from 'react';
 
-const Header = () => {
+export const DogImage = props => {
   return (
-    <header>
-      <h1>Dog Image Viewer</h1>
-    </header>
+    <div className="image">
+      <img src={props.imageUrl} alt="Dog" />
+      {/* updateUrl 関数を呼び出すために props.updateUrl を onClick ハンドラーとして渡す */}
+      <button onClick={props.updateUrl}>更新</button>
+    </div>
   );
-}
+};
 
-export default Header;
+export default DogImage;
