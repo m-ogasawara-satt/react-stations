@@ -1,13 +1,11 @@
-// Header.jsx
+// @ts-check+
 
-import React from 'react';
-
-const Header = () => {
+export const Header = props => {
   return (
     <header>
-      <h1>Dog Image Viewer</h1>
+      <h1>{props.header}</h1>
     </header>
-  );
+  )
 }
 
 export default Header;
